@@ -1,0 +1,84 @@
+<html>
+
+<style>
+body{font-family: calibri;
+background-color: pink;
+}
+
+.container{
+	padding: 50px;
+	background-color: lightblue;
+}
+input[type=text], input[type=password], textarea{
+width:100%;
+padding :12px;
+margin: 10px 20px;
+
+border:none;
+background: #f1f1f1;
+}
+
+.registerbtn{
+background-color: #4CAF50;
+color:white;
+padding: 16px;
+margin: 10px;
+border:none;
+cursor: pointer;
+width:100%;
+}
+
+</style>
+<body>
+
+<form>
+<center><h1> Student Registration Form</h1></center>
+
+<label> FirstName </label>
+<input type="text" name="firstname" placeholder ="Enter Firstname "/>
+<label> Middlename</label>
+<input type="text" name="Middlename" placeholder ="Enter Middlename "/>
+<label> Lastname</lable>
+<input type="text" name="Lastname" placeholder ="Enter lastname "/>
+
+<label>
+Course</label>
+
+<select>
+<option value="select course"> Course </option>
+<option value ="Certification in IT"> CIT</option>
+<option value ="Diploma in software"> DIS </option>
+<option value ="Bachlor in IT"> BAIT</option>
+<option value="Master in IT"> MIT</option>
+
+</select>
+<div>
+<label> Gender</label>
+<input type ="
+radio" value="Male" name="gender"> Male
+<input type ="radio" value= "Female" name="gender">Female
+<input type = "radio" value ="Other" name="gender"> Other
+</div>
+<label>Phone </label>
+<input type="text" name="Country code" placeholder="country code" value="+64">
+<input type="text" name="phone" placeholder ="Enter phone no" size="10" required>
+
+<label>Current address: </label>
+<textarea cols="80" rows="5" placeholder="current address" ></textarea>
+
+
+<label><b> Email</b></label>
+<input type="text" placeholder="enter email" required>
+
+<label><b>password</b></label>
+<input type="password" placeholder="enter password" required>
+
+<label><b> re-type password</b></label>
+<input type="password" placeholder="enter password" required>
+
+<button type="submit" class="registerbtn">Register</button>
+
+</form>
+</body>
+
+</html>
